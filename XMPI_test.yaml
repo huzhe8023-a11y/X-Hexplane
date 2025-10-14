@@ -1,0 +1,20 @@
+systems:
+  basedir: "/data/staff/tomograms/users/zhehu/Hexplane_rotation/resultss"
+  ckpt: /home/zhehu123/tomograms/users/zhehu/Hexplane_rotation/resultsss/20projs_rotation_bin3_std_const-20250131-141933/20projs_rotation_bin3_std_const.th
+model:
+  upsampling_type: unaligned
+  upsample_list: [3000, 6000, 9000]
+  update_emptymask_list: [4000, 8000, 10000]
+
+
+data:
+  datadir: "/home/zhehu123/tomograms/users/zhehu/pixelnerf/dataset/am_hex20_bin3_norm_std_cons.npy"
+  idx: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+  nta: 20
+
+
+
+render_only: True
+render_test: True
+render_path: False
+expname: 20projs
