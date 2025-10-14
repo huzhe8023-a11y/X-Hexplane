@@ -20,7 +20,7 @@ If you have any questions, please feel free to email me at zhe.hu@sljus.lu.se
 
 # Reconstruction
 ```
-python main.py config=strt.yaml
+python main.py config=XMPI.yaml
 ```
 
 
@@ -38,7 +38,7 @@ With `render_test=True`, `render_path=True`, results at test viewpoint are autom
 
 Or
 ```
-python main.py config=strt.yaml systems.ckpt="checkpoint/path" render_only=True
+python main.py config=XMPI_test.yaml systems.ckpt="checkpoint/path" render_only=True
 ```
 
 
