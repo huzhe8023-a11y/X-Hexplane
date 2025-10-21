@@ -89,10 +89,10 @@ def evaluation(
 
     w,h = test_dataset.img_wh
     lenth = len(test_dataset.theta_y)
-    #img_eval_interval = lenth if N_vis < 0 else max(len(test_dataset) // lenth, 1)
-    img_eval_interval = lenth
-    #idxs = list(range(0, len(test_dataset)//50, img_eval_interval))
-    idxs = list(range(2000, 2800, img_eval_interval))
+    img_eval_interval = lenth if N_vis < 0 else max(len(test_dataset) // lenth, 1)
+    #img_eval_interval = lenth
+    idxs = list(range(0, len(test_dataset), img_eval_interval))
+    #idxs = list(range(2000, 2800, img_eval_interval))
     #print(f'idxs:{idxs}')0
     for idx in tqdm(idxs):
         idx = int(idx)
