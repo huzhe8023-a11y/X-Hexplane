@@ -1,5 +1,5 @@
 systems:
-  basedir: "/data/staff/tomograms/users/zhehu/Hexplane_rotation/resultsss"
+  basedir: "path/to/your/folder/results"
 
 model:
   upsampling_type: unaligned
@@ -8,11 +8,11 @@ model:
 
 
 data:
-  datadir: "/home/zhehu123/tomograms/users/zhehu/dataset/am_hex10_bin3_l.npy"
+  datadir: "path/to/your/data/data.npy"
   idx: [0,1,2,3,4,5,6,7,8,9]
   nta: 10
 
 render_train: True
 render_test: True
 render_path: False
-expname: 10projs_rotation_bin3_l
+expname: expname
