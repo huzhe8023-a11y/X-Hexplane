@@ -16,7 +16,7 @@ If you have any questions, please feel free to email me at zhe.hu@sljus.lu.se
 
 ```
 # Data Preparation
-The additive manufacturing datasets used for validation of STRT can be found with the doi: 10.5281/zenodo.17349522
+The additive manufacturing datasets used for validation of STRT can be found with the doi: 10.5281/zenodo.17405779
 
 # Reconstruction
 ```
